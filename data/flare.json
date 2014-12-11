@@ -1,0 +1,69 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "christianity",
+     "children": [
+      {"name": "Christian nfd", "size": 470941},
+      {"name": "Anglican", "size": 3679908},
+      {"name": "Baptist", "size": 352498},
+      {"name": "Brethren", "size": 21731},
+      {"name": "Catholic", "size": 5439267},
+      {"name": "Churches of Christ", "size": 49687},
+      {"name": "Jehovah's Witnesses", "size": 85636},
+      {"name": "Latter-day Saints", "size": 59770},
+      {"name": "Lutheran", "size": 251931},
+      {"name": "Oriental Orthodox", "size": 41261},
+      {"name": "Assyrian Apostolic", "size": 10589},
+      {"name": "Eastern Orthodox", "size": 563073},
+      {"name": "Presbyterian and Reformed", "size": 599515},
+      {"name": "Salvation Army", "size": 60163},
+      {"name": "Seventh-day Adventist", "size": 63002},
+      {"name": "Uniting Church", "size": 1065795},
+      {"name": "Pentecostal", "size": 237986},
+      {"name": "Other Protestant", "size": 60241},
+      {"name": "Other Christian", "size": 37673}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "none",
+   "children": [
+    {"name": "No Religion", "size": 4796787}
+   ]
+  },
+  {
+   "name": "eastern",
+   "children": [
+    {"name": "Buddhism", "size": 528978},
+    {"name": "Islam", "size": 476291},
+    {"name": "Hindusim", "size": 275535},
+    {"name": "Judaism", "size": 97336}
+   ]
+  },
+  {
+   "name": "other",
+   "children": [
+    {"name": "Aboriginal Religions", "size": 7362},
+    {"name": "Bahai", "size": 13707},
+    {"name": "Chinese Religions", "size": 5152},
+    {"name": "Druse", "size": 2975},
+    {"name": "Japanese Religions", "size": 1639},
+    {"name": "Nature Religions", "size": 32083},
+    {"name": "Sikhism", "size": 72296},
+    {"name": "Spiritualism", "size": 11552},
+    {"name": "Miscellaneous Religions", "size": 21428}
+   ]
+  },
+  {
+   "name": "unknown",
+   "children": [
+    {"name": "Not stated", "size": 1839649}
+   ]
+  }
+ ]
+}

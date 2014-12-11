@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    	<meta charset="utf-8">
+	    	<meta name="description" content="Faith in Numbers is a visual analysis of religion in Australia.">
+	    	<meta name="keywords" content="religion, australia, data, visualisation, d3, d3js, vizualisation, christianity, statistics, amy simmons, journalism, islam, buddhism, pentecostalism, weddings, civil, celebrants, faith, numbers">
+	    	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+			<title>Faith in Numbers</title>
+   			<script type="text/javascript" src="js/jquery.js"></script>
+   			<script type="text/javascript" src="js/jquery-ui-1.10.4.custom"></script>
+   			<script type="text/javascript" src="js/jquery.smooth-scroll.js"></script>
+    		<script type="text/javascript" src="js/main.js"></script>
+			<link rel="stylesheet" href="css/normalize.css">
+			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css"/>
+			<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="#Home">
+			<nav>
+				<h1><a href="index.html">Faith in Numbers</a></h1>
+				<p class="tagline">A visual analysis of religion in Australia.</p>
+				<div id="links">
+					<a href="#one">Data</a>
+					<a href="#about">About</a>
+					<a href="#Contact">Contact</a>
+				</div>
+			</nav>
+			<div id="first-row">
+				<a href="#one">
+					<div class="row-image">
+						<img src="images/islam-mosque-girl-2.jpg" alt="Young Muslim girl in mosque">
+						<div class="hover-content">
+							<h2>Religion in Australia</h2>
+						</div>
+					</div>
+				</a>
+				<a href="#two">
+					<div class="row-image">
+						<img src="images/pentecostal-band-1.jpg" alt="Pentecostal band plays to congregation">
+						<div class="hover-content">
+							<h2>No religion</h2>
+						</div>
+					</div>
+				</a>
+				<a href="#three">
+					<div class="row-image">
+						<img src="images/bishop-preach.jpg" alt="Bishop preaches in church">
+						<div class="hover-content">
+							<h2>A dying age</h2>
+						</div>
+					</div>	
+				</a>
+			</div>
+			<div id="second-row">
+				<a href="#four">
+					<div class="row-image">
+						<img src="images/married-couple-wall.jpg" alt="Couple on wedding day">
+						<div class="hover-content">
+							<h2>Civil ceremonies</h2>
+						</div>
+					</div>
+				</a>
+				<a href="#five">
+					<div class="row-image">
+						<img src="images/sari-henna.jpg" alt="Sikh bride with henna on hands">
+						<div class="hover-content">
+							<h2>Ups and downs</h2>
+						</div>
+					</div>
+				</a>
+				<a href="#six">
+					<div class="row-image">
+						<img src="images/pentecostal-woman.jpg" alt="Pentecostal woman in church">
+						<div class="hover-content">
+							<h2>Interesting finds</h2>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div id="third-row">
+				<a href="#seven">
+					<div class="row-image">
+						<img src="images/boy-church.jpg" alt="People pray in church">
+						<div class="hover-content">
+							<h2>Born overseas</h2>
+						</div>
+					</div>
+				</a>
+				<a href="#eight">
+					<div class="row-image">
+						<img src="images/islam-mosque-men.jpg" alt="Men sit in Islamic mosque">
+						<div class="hover-content">
+							<h2>Migrant influence</h2>
+						</div>
+					</div>
+				</a>
+				<a href="#about">
+					<div class="row-image">
+						<img src="images/couple-pray.jpg" alt="Couple pray in church">
+						<div class="hover-content">
+							<h2>About the data</h2>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div> 
+		<section id="one">
+			<div class="overlay">
+				<div class="info">
+					<h2>Religion in Australia</h2>
+					<p>Hover over the bubbles to see how many people reported each religion - or no religion - in the <span class="big-numbers">2011</span> census. <br/> <i class="arrow-down icon-arrow-down icon" ></i> <br/>Catholicism had the largest population at <span class="big-numbers">25%</span>, followed by <span class="big-numbers">22%</span> of people who reported no religion.</p>
+				</div>
+				<div class="chart" id="religion-bubbles"></div>
+			</div>
+		</section> 
+		<section id="two">
+			<div class="overlay">
+				<div class="info">
+					<h2>No religion on the rise</h2>
+					<p>In 1911 <span class="big-numbers">1 in 250</span> people reported no religion.<br/> <i class="arrow-down icon-arrow-down icon" ></i> <br/> In 2011 that number had jumped to <span class="big-numbers">1 in 5</span>.</p>
+				</div>
+				<div class="chart" id="no-religion"></div>
+			</div>
+		</section> 
+		<section id="three">
+			<div class="overlay">
+				<div class="info">
+					<h2>A dying age</h2>
+					<p>This chart shows older people in Australia are considerably less likely than younger people to report no religion. <br/> <i class="arrow-down icon-arrow-down icon" ></i><br/>Only <span class="big-numbers">10%</span> of people over <span class="big-numbers">65</span> reported no religion in 2011.
+				</div>
+				<div class="chart" id="no-religion-age"></div>
+			</div>
+		</section> 
+		<section id="four">
+			<div class="overlay">
+				<div class="info">
+					<h2>More civil weddings</h2>
+					<p>Civil wedding ceremonies in Australia have outnumbered religious ones since <span class="big-numbers">1999</span>.<br/><i class="arrow-down icon-arrow-down icon" ></i></br>In <span class="big-numbers">2011</span>, 70% of all marriages were performed by a civil celebrant.</p>
+				</div>
+				<div class="chart" id="marriage-ceremonies"></div>
+			</div>
+		</section>
+		<section id="five">
+			<div class="overlay">
+				<div class="info">
+					<h2>Ups and downs</h2>
+					<p>While some areas of religion have declined, there has been an increase in affiliation to <span class="big-numbers">non-Christian</span> religions.</p>
+				</div>
+				<div class="chart" id="increasing-decreasing"></div>
+			</div>
+		</section> 
+		<section id="six">
+			<div class="overlay">
+				<div class="info">
+					<h2>Interesting finds</h2>
+					<p><span class="big-numbers">Pentecostalism</span>, which is predominantly made up of young people, and <span class="big-numbers">Jedi</span>, a following based on Star Wars, are among the religions that have incresed in recent years.<br/> <i class="arrow-down icon-arrow-down icon" ></i> <br> Hover over the bars to see the exact numbers.</p>
+				</div>
+				<div class="chart" id="jedi-pente"></div>
+			</div>
+		</section> 
+		<section id="seven">
+			<div class="overlay">
+				<div class="info">
+					<h2>Born overseas</h2>
+					<p>Christians make up <span class="big-numbers">56%</span> of Australia's overseas born population. Non-Christians make up <span class="big-numbers">19%</span>. <br/> <i class="arrow-down icon-arrow-down icon" ></i> <br> Use the drop down menu to see what percentage of people in each religion is born in Australia or overseas.</p>
+				</div>
+				<div class="chart" id="born-overseas"></div>
+			</div>
+		</section> 
+		<section id="eight">
+			<div class="overlay">
+				<div class="info">
+					<h2>Migrant influence</h2>
+					<p>People who have recently arrived in Australia are <span class="big-numbers">less likeky</span> to report Catholicism or Anglicanism than longer-standing arrivals. <br/><i class="arrow-down icon-arrow-down icon" ></i><br/> They are <span class="big-numbers">more likely</span> to report Hinduism, Islam and Buddhism. </p>
+				</div>
+				<div class="chart" id="recently-arrived"></div>
+			</div>
+		</section> 
+		<section id="about">
+			<div class="overlay">
+				<div class="about-info">
+					<h2>About Faith in Numbers</h2>
+					<p>All visualisations in this project are based on data from the Australian Bureau of Statistics and the 2011 Census.</p>
+					<p>Photography by Amy Simmons, Tim Leslie and Conan Whitehouse.</p>
+					<p>Charts built from Mike Bostock's D3 examples.</p>
+					<h2>About me</h2>
+					<p>My name is Amy and I'm a journalist in Sydney, Australia.</p>
+					<p>Faith in Numbers is my first attempt at HTML, CSS, JavaScript and D3. I built the website during a 10-week front-end web development course with General Assembly.</p>
+				</div>
+			</div>
+		</section> 
+		<footer id="Contact">
+			<div id="byline">Created by Amy Simmons</div>
+			<div id="icons">
+				<a class="email icon-envelope" href="mail to:amy__simmons@hotmail.com"></a>
+			    <a class="twitter icon-twitter" href="https://twitter.com/amesimmons"></a>
+			   	<a class="instagram icon-instagram" href="http://instagram.com/amesimmons"></a>
+			    <a class="linkedin icon-linkedin" href="http://au.linkedin.com/pub/amy-simmons/5a/731/189"></a>
+			</div>
+		</footer>
+	</body>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="js/charts.js"></script>
+</html>

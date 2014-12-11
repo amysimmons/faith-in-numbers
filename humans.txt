@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Amy Simmons> -- <Developer and content> -- <@amesimmons>
+
+# THANKS
+
+    <Tim Leslie (photos), Conan Whitehouse (photos), Mike Bostock (D3), Simon Rodwell (tutor)>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
